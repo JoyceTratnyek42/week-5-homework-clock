@@ -2,19 +2,33 @@
   box-sizing: border-box;
 }
 
+
+@font-face {
+    font-family: 'Late Eighties';
+    src: url('LateEighties.woff2') format('woff2'),
+        url('LateEighties.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 body {
   font-size: 22px;
   line-height: 1.5;
-  font-family: Helvetica, sans-serif;
-  color: #111;
+  font-family: "late eighties", serif;
+  color: rgba(22,3,46,1);
   margin: 0;
+  font-weight: bolder;
   padding: 20px 40px;
+  background: #88d8c0;
 
   /* This will center anything on your page */
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+ 
 }
 
 .clock {
@@ -24,8 +38,21 @@ body {
   text-align: center;
   border: 2px solid black;
   border-radius: 10px;
+  box-shadow: 6px 15px 17px rgba(22,3,46,1);
+
+
+
 }
 
 .time {
   
+}
+
+
+.xmlns {
+  width:40px;
+ color: rgba(22,3,46,1);
+
+
+
 }
